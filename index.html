@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Halloween Countdown</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@400;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="holiday-selection">
+            <p>When is the next</p>
+            <select name="" id="holiday-picker">
+                <option value="new_years">New Year's Day</option>
+                <option value="valentines">Valentine's Day</option>
+                <option value="independence_day">Independence Day</option>
+                <option value="halloween">Halloween</option>
+                <option value="thanksgiving">Thanksgiving</option>
+                <option value="christmas">Christmas</option>
+            </select>
+        </section>
+        <p class="countdown-title-top">Countdown to</p>
+        <h1 id="countdown-title"></h1>
+        <section id="loading" class="loading">
+            <p class="loading-text">Loading...</p>
+        </section>
+        <section class="container">
+            <div class="time-block">
+                <h2 id="days">00</h2>
+                <small>days</small>
+            </div>
+            <div class="time-block">
+                <h2 id="hours">00</h2>
+                <small>hours</small>
+            </div>
+            <div class="time-block">
+                <h2 id="minutes">00</h2>
+                <small>minutes</small>
+            </div>
+            <div class="time-block">
+                <h2 id="seconds">00</h2>
+                <small>seconds</small>
+            </div>
+        </section>
+        <script src="holidays.js"></script>
+        <script src="date-calculations.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

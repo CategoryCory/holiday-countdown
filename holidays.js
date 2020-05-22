@@ -1,0 +1,45 @@
+const holidays = {
+    new_years: {
+        name: "New Year's Day",
+        img: "new_years",
+        month: 0,
+        day: 1,
+        isFixed: true,
+    },
+    valentines: {
+        name: "Valentine's Day",
+        img: "valentines",
+        month: 1,
+        day: 14,
+        isFixed: true,
+    },
+    independence_day: {
+        name: "Independence Day",
+        img: "independence_day",
+        month: 6,
+        day: 4,
+        isFixed: true,
+    },
+    halloween: {
+        name: "Halloween",
+        img: "halloween",
+        month: 9,
+        day: 31,
+        isFixed: true,
+    },
+    thanksgiving: {
+        name: "Thanksgiving",
+        img: "thanksgiving",
+        month: 10,
+        dayOfWeek: 4,
+        weekOfMonth: 3,
+        isFixed: false,
+    },
+    christmas: {
+        name: "Christmas",
+        img: "christmas",
+        month: 11,
+        day: 25,
+        isFixed: true,
+    },
+};
