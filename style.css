@@ -116,17 +116,28 @@ small {
 }
 
 @media screen and (max-width: 775px) {
+    .holiday-selection select {
+        padding: 0.25rem 0.5rem;
+        font-size: 1em;
+    }
+
+    .holiday-selection p {
+        margin-right: 1rem;
+        font-size: 1em;
+    }
+
     body {
         justify-content: start;
         padding-top: 1.5rem;
     }
 
     h1 {
-        font-size: 2.25em;
+        font-size: 2.1em;
     }
 
     h2 {
         font-size: 2.75em;
+        margin-right: 1.25rem;
     }
 
     small {
@@ -143,6 +154,8 @@ small {
     }
 
     .time-block {
+        flex-direction: row;
+        width: 100%;
         margin: 0.5rem 0;
     }
 }
