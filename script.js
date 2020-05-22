@@ -25,8 +25,6 @@ function createPage() {
 
     setTimeout(() => {
         container.style.display = "flex";
-        // loadingSection.remove();
-        // loadingSection.classList.add('hidden');
         loadingSection.classList.toggle("hidden");
     }, 1000);
 
